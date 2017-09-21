@@ -11,3 +11,6 @@ filetype plugin indent on
 let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
 
 :set expandtab tabstop=2 shiftwidth=2
+
+:set hlsearch incsearch ignorecase smartcase
+:nnoremap <silent> <Space> :nohlsearch <CR>
