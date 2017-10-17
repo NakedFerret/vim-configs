@@ -16,5 +16,9 @@ let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
 :set hlsearch incsearch ignorecase smartcase
 :nnoremap <silent> <Space> :nohlsearch <CR>
 
+set list
+
+set listchars=tab:▸\ ,eol:¬
+
 
 :syntax enable
